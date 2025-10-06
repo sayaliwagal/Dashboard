@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --color-side-bg: #008a00;
+  --color-side-dropdown: #007500;
+
+}

@@ -8,8 +8,8 @@ const Dashbord = () => {
   return (
     <div>
     <Header />
-    {/* <SideBar />
-    <DashbordComponents />
+   <SideBar />
+   {/* <DashbordComponents />
     <Footer /> */}
     </div>
   )
