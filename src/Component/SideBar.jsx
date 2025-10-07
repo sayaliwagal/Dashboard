@@ -26,7 +26,7 @@ const SideBar = () => {
         <div>
           <button
             onClick={() => toggleMenu("overview")}
-            className="flex items-center justify-between w-full py-2 px-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors"
+            className="flex items-center justify-between w-full py-2 px-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors cursor-pointer"
           >
             <span className="flex items-center gap-3">
               <GoHome size={20} />
@@ -60,25 +60,25 @@ const SideBar = () => {
         </div>
 
         {/* Your Report */}
-        <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors">
+        <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors cursor-pointer">
           <FaRegFileAlt size={20} />
           <span>Your Report</span>
         </button>
 
         {/* Simulator */}
-        <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors">
+        <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors cursor-pointer">
           <BiTachometer size={20} />
           <span>Simulator</span>
         </button>
 
         {/* Upgrade My Plan */}
-        <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors">
+        <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors cursor-pointer">
           <HiUpload size={20} />
           <span>Upgrade My Plan</span>
         </button>
 
         {/* Rewards Program */}
-        <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors">
+        <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors cursor-pointer">
           <MdCardGiftcard size={20} />
           <span>Rewards Program</span>
         </button>

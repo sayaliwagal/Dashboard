@@ -9,8 +9,8 @@ const Dashbord = () => {
     <div>
     <Header />
    <SideBar />
-   {/* <DashbordComponents />
-    <Footer /> */}
+   <DashbordComponents />
+    <Footer /> 
     </div>
   )
 }
