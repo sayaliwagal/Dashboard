@@ -4,6 +4,7 @@ import { FaChevronDown, FaRegFileAlt } from "react-icons/fa";
 import { BiTachometer } from "react-icons/bi";
 import { HiUpload } from "react-icons/hi";
 import { MdCardGiftcard } from "react-icons/md";
+import { IoMdNotificationsOutline } from "react-icons/io"
 
 const SideBar = () => {
   const [openMenu, setOpenMenu] = useState("overview");
@@ -13,7 +14,7 @@ const SideBar = () => {
   };
 
   return (
-    <div className=" absolute top-0 w-64 min-h-screen bg-[var(--color-side-bg)] text-white p-5 flex flex-col">
+    <div className=" absolute top-0 w-64 h-screen bg-[var(--color-side-bg)] text-white p-5 flex flex-col">
       {/* Logo Section */}
       <div className="flex items-center mb-8">
         <div className="bg-yellow-400 w-4 h-4 mr-2"></div>
@@ -63,6 +64,11 @@ const SideBar = () => {
         <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors cursor-pointer">
           <FaRegFileAlt size={20} />
           <span>Your Report</span>
+        </button>
+                <button className="flex items-center w-full py-2 px-3 gap-3 rounded-md hover:bg-[--color-side-dropdown] transition-colors cursor-pointer">
+          <IoMdNotificationsOutline  size={20} />
+          <span>Alerts</span>
+          <span className="bg-yellow-400 text-black text-xs text-center px-2 py-0.5 rounded-full">4</span>
         </button>
 
         {/* Simulator */}

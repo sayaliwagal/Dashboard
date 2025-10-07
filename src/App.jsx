@@ -3,7 +3,7 @@ import Dashbord from './Pages/Dashbord'
 
 const App = () => {
   return (
-    <div>
+    <div className='font-[var(--font-roboto)]'>
        <Dashbord />
     </div>
   )
