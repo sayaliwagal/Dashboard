@@ -1,14 +1,14 @@
 import React from "react";
 import PieChartsWithNeedle from "./Charts/PieChartsWithNeedle";
-import piefile from "../../public/piefile.png";
-import piepic from "../../public/piepic.png"
+import piefile from "../assets/piefile.png";
+import piepic from "../assets/piepic.png"
 import { IoEyeOutline } from "react-icons/io5";
 import { FaAngleRight } from "react-icons/fa";
 import file from "../assets/icons.svg"
 
 const UserScore = () => {
   return (
-    <div className="flex justify-around max-w-full gap-7  h-fit bg-gray-300 [box-shadow:0_-4px_8px_rgba(1,90,0,0.1)]">
+    <div className="flex justify-around max-w-3/5 gap-7  h-3/4 bg-gray-300 [box-shadow:0_-4px_8px_rgba(1,90,0,0.1)]">
       <div className=" bg-white rounded-xl h-1/2 shadow-xl p-6 flex flex-col">
         <h1 className="text-2xl font-bold text-center">Hello, Rahul L.</h1>
         <PieChartsWithNeedle

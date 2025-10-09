@@ -11,7 +11,7 @@ const Dashbord = () => {
       <Header />
 
       {/* Main Section (Sidebar + Dashboard Content) */}
-      <div className="flex flex-1 overflow-hidden">
+      <div className="field-sizing-fixed overflow-hidden ">
         {/* Sidebar (fixed width) */}
         <SideBar />
 
